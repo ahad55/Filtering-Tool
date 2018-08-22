@@ -1,0 +1,40 @@
+/* Format the images */
+.filter-photo img {
+  width: 1px;
+  height: 1px;
+  float: left;
+  visibility: hidden; 
+}
+
+/* Format the text aspect */
+.filter-text {
+  font-weight: bold;
+  font-family: "Georgia";
+}
+
+/* Add a line which bordrs each funding op */
+.filter-text:before {
+  border-top: 6px solid #ffcc66;
+  display: block;
+  position: relative;
+  top: -5px;
+  margin: 0 auto;
+  width: 100%;
+  content: "";
+}
+
+/* align the link to the right */
+.filter-link {
+  text-align: right; 
+  float: right; 
+  display: More info;
+  background: #ffcc66;
+  padding: 5px;
+}
+
+/* add the hover over feature to the link */
+.filter-link:hover {
+  background: grey;
+  color: #ffcc66; 
+}
+
